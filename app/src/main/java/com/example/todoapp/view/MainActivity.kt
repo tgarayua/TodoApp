@@ -1,8 +1,11 @@
-package com.example.todoapp
+package com.example.todoapp.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.todoapp.R
+import com.example.todoapp.models.Todo
+import com.example.todoapp.adapter.TodoAdapter
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {

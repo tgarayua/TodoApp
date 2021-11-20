@@ -8,7 +8,7 @@
     <fragment
         android:id="@+id/loginFragment"
         android:label="Login"
-        android:name="com.example.todoapp.LoginFragment"
+        android:name="com.example.todoapp.view.LoginFragment"
         tools:layout="@layout/fragment_login" >
         <action
             android:id="@+id/goToRegisterFragment"
@@ -19,7 +19,7 @@
     <fragment
         android:id="@+id/registerFragment"
         android:label="Register"
-        android:name="com.example.todoapp.RegisterFragment"
+        android:name="com.example.todoapp.view.RegisterFragment"
         tools:layout="@layout/fragment_register" >
 
         <action
